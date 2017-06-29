@@ -18,10 +18,6 @@ public class LogbookbugApplication {
 	
     @RequestMapping(value = "/test", method = RequestMethod.POST)
     public User test(  User user){
-      User user1 = new User();
-        user1.setAge(5);
-        user1.setName("hello");
-        user1.setNick("xiaoming");
-        return user1;
+        return user;
     }
 }
